@@ -35,7 +35,6 @@ jobs:
         with:
           push: true
           tags: dotnetconf21playground.azurecr.io/feedapi:${{ github.sha }}
-          context: src/FeedsApi
           path: src/FeedsApi
           file: src/FeedsApi/Dockerfile
 
